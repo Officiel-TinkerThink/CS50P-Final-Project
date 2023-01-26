@@ -19,7 +19,6 @@ def main():
     welcome()
     level = ask_level()
     equation = game_setup(level)
-    equation = '24+18=42'
     #print(equation) #for trial
     # count the lenght of equation, use that as the length of answer.
     digit = len(equation)
